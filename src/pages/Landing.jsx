@@ -1,6 +1,7 @@
-import logo from "../assets/images/logo.svg";
 import { Link } from "react-router-dom";
-import Wrapper from "../assets/wrappers/LandingPage";
+import main from "../assets/images/main.svg";
+import logo from "../assets/images/logo.svg";
+import Wrapper from "../assets/wrappers/LandingPage.js";
 
 const Landing = () => {
   return (
@@ -26,6 +27,7 @@ const Landing = () => {
             Login / Demo User
           </Link>
         </div>
+        <img src={main} alt="job hunt" className="img main-img" />
       </div>
     </Wrapper>
   );
