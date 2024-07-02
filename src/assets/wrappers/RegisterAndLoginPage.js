@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   min-height: 100vh;
@@ -7,7 +7,7 @@ const Wrapper = styled.section`
   .logo {
     display: block;
     margin: 0 auto;
-    margin-bottom: 1.38rem;
+    margin-bottom: 1.38em;
   }
   .form {
     max-width: 400px;
@@ -15,7 +15,7 @@ const Wrapper = styled.section`
   }
   h4 {
     text-align: center;
-    margin-bottom: 1.38rem;
+    margin-bottom: 1.38em;
   }
   p {
     margin-top: 1rem;
