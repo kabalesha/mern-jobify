@@ -1,7 +1,10 @@
 import Wrapper from "../assets/wrappers/SmallSidebar";
+import { useDashboardContext } from "../pages/DashboardLayout";
 
-const SmallSideBar = () => {
-  return <Wrapper>SmallSideBar</Wrapper>;
+const SmallSidebar = () => {
+  const data = useDashboardContext();
+  console.log(data);
+  return <Wrapper>SmallSidebar</Wrapper>;
 };
 
-export default SmallSideBar;
+export default SmallSidebar;
